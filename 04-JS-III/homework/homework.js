@@ -93,13 +93,12 @@ function promedioResultadosTest(resultadosTest) {
   // Tu código:
   var prom = 0
   var sum = 0
-  for (var = 0 ; i < resultadosTest.lenth; i++) { 
+  for (var = 0 ; i < resultadosTest.lenth; i++ ) { 
     sum = sum + resultadosTest[i]
  } 
  prom = sum / promedioResultadosTest.length;
   return prom ;
 }
-
 
 function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
@@ -246,7 +245,7 @@ for (var i = 0; numero < 10 ; i++) {
 } else (
   numero = numero + 2;
   nuevosValores.push(numero);
-   ) 
+) 
  }
  return nuevosValores;
 }
